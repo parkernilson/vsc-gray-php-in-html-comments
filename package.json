@@ -4,7 +4,7 @@
 	"description": "Gray out php nested in html comments, so that it looks nicer.",
 	"repository": "https://github.com/parkernilson/vsc-gray-php-in-html-comments",
 	"publisher": "parkernilson",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
@@ -20,7 +20,9 @@
 			{
 				"path": "./src/syntaxes/php-in-html-comment.json",
 				"scopeName": "comment.html.contained.php",
-				"injectTo": ["text.html.php"]
+				"injectTo": [
+					"text.html.php"
+				]
 			}
 		]
 	},
