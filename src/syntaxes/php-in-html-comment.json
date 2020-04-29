@@ -1,6 +1,6 @@
 {
     "scopeName": "comment.html.contained.php",
-    "injectionSelector": "L:comment.block.html meta.embedded.block.php",
+    "injectionSelector": "L:comment.block.html meta.embedded.block.php, L:comment.block.html meta.embedded.line.php",
     "patterns": [
         {
             "include": "#php-body-in-html-comment"
@@ -10,7 +10,7 @@
         "php-body-in-html-comment": {
             "begin": "(?<=<\\?php)(.|\n)",
             "end": "(.|\n)(?=\\?>)",
-            "name": "comment.block.html"
+            "name": "comment"
         }
     }
 }
