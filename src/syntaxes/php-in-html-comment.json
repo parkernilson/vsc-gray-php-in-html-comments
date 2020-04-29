@@ -1,0 +1,16 @@
+{
+    "scopeName": "comment.html.contained.php",
+    "injectionSelector": "L:comment.block.html meta.embedded.block.php",
+    "patterns": [
+        {
+            "include": "#php-body-in-html-comment"
+        }
+    ],
+    "repository": {
+        "php-body-in-html-comment": {
+            "begin": "(?<=<\\?php)(.|\n)",
+            "end": "(.|\n)(?=\\?>)",
+            "name": "comment.block.html"
+        }
+    }
+}
