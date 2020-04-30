@@ -77,3 +77,5 @@
 
 </body>
 </html>
+
+<!-- <?php echo "Outside of HTML Tags" ?> -->
