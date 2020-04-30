@@ -5,7 +5,7 @@
 	"repository": "https://github.com/parkernilson/vsc-gray-php-in-html-comments",
 	"publisher": "parkernilson",
 	"logo": "./GrayPHPInHTMLCommentsLogo.png",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
