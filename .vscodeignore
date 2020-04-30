@@ -1,5 +1,6 @@
 .vscode/**
 .vscode-test/**
+dev-assets/**
 out/test/**
 src/**
 test-fixtures/**

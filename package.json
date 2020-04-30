@@ -4,6 +4,7 @@
 	"description": "Gray out php nested in html comments, so that it looks nicer.",
 	"repository": "https://github.com/parkernilson/vsc-gray-php-in-html-comments",
 	"publisher": "parkernilson",
+	"logo": "./GrayPHPInHTMLCommentsLogo.png",
 	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.44.0"

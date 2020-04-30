@@ -1,5 +1,6 @@
 out
 node_modules
+dev-assets/
 sample-php/
 .vscode-test/
 *.vsix
