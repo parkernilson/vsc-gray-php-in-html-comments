@@ -8,9 +8,13 @@ import * as vscode from 'vscode';
 suite('Extension Test Suite', () => {
 	vscode.window.showInformationMessage('');
 
-	test('Does it look good?', async () => {
+	test('Does it look good?', async function() {
+		this.enableTimeouts(false);
+
 		const goodOption = "Does it look GOOD?";
 		const badOption = "Does it look BAD?";
 		assert(await vscode.window.showQuickPick([goodOption, badOption]), goodOption);
+
+		return true;
 	});
 });
