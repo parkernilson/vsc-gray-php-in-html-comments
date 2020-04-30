@@ -6,7 +6,7 @@
 	"publisher": "parkernilson",
 	"author": "Parker Nilson",
 	"icon": "icon.png",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "LICENSE",
 	"engines": {
 		"vscode": "^1.44.0"
