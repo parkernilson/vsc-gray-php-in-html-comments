@@ -19,7 +19,7 @@
 	"contributes": {
 		"grammars": [
 			{
-				"path": "./src/syntaxes/php-in-html-comment.json",
+				"path": "./syntaxes/php-in-html-comment.json",
 				"scopeName": "comment.html.contained.php",
 				"injectTo": [
 					"text.html.php"
