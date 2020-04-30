@@ -8,12 +8,16 @@ import * as vscode from 'vscode';
 suite('Extension Test Suite', () => {
 	vscode.window.showInformationMessage('');
 
-	test('Does it look good?', async function() {
+	test('Visual Inspection', async function() {
 		this.enableTimeouts(false);
 
-		const goodOption = "Does it look GOOD?";
-		const badOption = "Does it look BAD?";
-		assert(await vscode.window.showQuickPick([goodOption, badOption]), goodOption);
+		const goodOption = "All of the visual tests look good.";
+		const badOption = "There are one or more problems in the visual tests.";
+		assert(await vscode.window.showQuickPick([goodOption, badOption], {
+			canPickMany: false,
+			ignoreFocusOut: true,
+			placeHolder: "Please inspect the test files and indicate if all of the visual tests pass.",
+		}), goodOption);
 
 		return true;
 	});
