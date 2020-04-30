@@ -12,7 +12,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onLanguage:php"
+		"onLanguage:php",
+		"onCommand:grayPhpInHtmlComments.activate"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -23,6 +24,12 @@
 				"injectTo": [
 					"text.html.php"
 				]
+			}
+		],
+		"commands": [
+			{
+				"command": "grayPhpInHtmlComments.activate",
+				"title": "Gray PHP In HTML Comments: Activate"
 			}
 		]
 	},
