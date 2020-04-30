@@ -3,6 +3,7 @@
 out/test/**
 src/**
 test-fixtures/**
+sample-php/**
 .gitignore
 vsc-extension-quickstart.md
 **/tsconfig.json
