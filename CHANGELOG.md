@@ -10,3 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] Initial Release - 2020-30-04
 ### Added:
 - \<?php and \?> tags remain lit up, but the rest of the php body is set to match the color and formatting of the surrounding comment.
+
+## [1.0.1 and 1.0.2] - 2020-30-04
+### Modified:
+- README.md

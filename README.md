@@ -21,3 +21,7 @@ Here's what the same comment looks like without this plugin:
 ### 1.0.0
 
 Initial release of Gray PHP In HTML Comments
+
+### 1.0.1 and 1.0.2
+
+Tinkering with README
