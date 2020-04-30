@@ -8,6 +8,7 @@ to make php comments within HTML comments _look nicer_, not to ignore them.
 ## Features
 
 TODO: include image here
+![](https://github.com/parkernilson/vsc-gray-php-in-html/docs/gray-php-in-html-comment.gif)
 
 ## Requirements
 
