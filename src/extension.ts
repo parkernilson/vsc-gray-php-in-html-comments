@@ -5,11 +5,7 @@ import * as vscode from 'vscode';
  */
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Extension "gray-php-in-html-comments" is now active!');
-
-	vscode.commands.registerCommand('grayPhpInHtmlComments.activate', () => {
-		vscode.window.showInformationMessage('Gray PHP in HTML Comments activated!');
-	});
+	console.log('Extension "Gray PHP In HTML Comments" is now active!');
 }
 
 // this method is called when the extension is deactivated
