@@ -4,6 +4,8 @@ When PHP is nested within an HTML comment, it is still processed by the PHP serv
 
 ### **_So_**: this extension keeps \<?php and \?> tags lit up within html comments, but sets the rest of the body to match the surrounding comment.
 
+NOTE: Even though this plugin will make some PHP look like it is commented out, PHP is **still processed** by the server unless it is commented out with **PHP comments**.
+
 ## Features
 
 Keeps \<?php and \?> tags lit up, but sets the php body to match the surrounding comment, making it less obtrusive:
