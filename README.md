@@ -1,6 +1,6 @@
 # README for Gray PHP In HTML Comments
 
-When PHP is nested within an HTML comment, it is still processed normally, so it is not grayed out, but this looks bad.
+When PHP is nested within an HTML comment, it is still processed by the PHP server. Because of this PHP is not grayed out by HTML comments, but this looks bad.
 
 ### **_So_**: this extension keeps \<?php and \?> tags lit up within html comments, but sets the rest of the body to match the surrounding comment.
 

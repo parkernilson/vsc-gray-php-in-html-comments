@@ -1,9 +1,10 @@
 {
 	"name": "gray-php-in-html-comments",
 	"displayName": "Gray PHP in HTML Comments",
-	"description": "Gray out php nested in html comments, so that it looks nicer.",
+	"description": "Keep <?php and ?> tags lit, but gray out the rest of php nested in html comments, so that it looks nicer.",
 	"repository": "https://github.com/parkernilson/vsc-gray-php-in-html-comments",
 	"publisher": "parkernilson",
+	"author": "Parker Nilson",
 	"icon": "icon.png",
 	"version": "0.0.9",
 	"engines": {
