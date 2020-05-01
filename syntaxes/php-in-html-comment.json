@@ -4,6 +4,9 @@
     "patterns": [
         {
             "include": "#php-body-in-html-comment"
+        },
+        {
+            "include": "#html-comment-tags-in-php-body"
         }
     ],
     "repository": {
@@ -11,6 +14,10 @@
             "begin": "(?<=<\\?php)(.|\n)",
             "end": "(.|\n)(?=\\?>)",
             "name": "comment"
+        },
+        "html-comment-tags-in-php-body": {
+            "match": "<!--|-->",
+            "name": "gray.php.warn"
         }
     }
 }
