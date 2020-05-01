@@ -7,6 +7,7 @@ When PHP is nested within an HTML comment, it is still processed by the PHP serv
 NOTE: Even though this plugin will make some PHP look like it is commented out, PHP is **still processed** by the server unless it is commented out with **PHP comments**.
 
 ## Features
+Works in any theme!
 
 Keeps \<?php and \?> tags lit up, but sets the php body to match the surrounding comment, making it less obtrusive:
 
